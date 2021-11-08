@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <link rel="stylesheet" href=
+"http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  
+    <script src=
+        "http://code.jquery.com/jquery-1.11.1.min.js">
+    </script>
+  
+    <script src=
+"http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js">
+    </script>
+</head>
+  
+<body>
+    <center>
+        <h1>tanu</h1>
+  
+        <h4>
+            Design a Basic Slider with Step 
+            Attribute using jQuery Mobile
+        </h4>
+  
+        <form style="width: 50%;">
+            <label for="slider">
+                Basic Slider with Step Attribute:
+            </label>
+  
+            <input type="range" name="slider" id="slider"
+                min="0" max="100" step="5" value="30">
+        </form>
+    </center>
+</body>
+  
+</html>
